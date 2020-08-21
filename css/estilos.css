@@ -14,28 +14,17 @@ body{
 
 /* cabecera */
 .cabecera{
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .cabecera img{
     width: 180px;
 }
 
+/* hero */
 .hero{
     width: 80%;
     margin: auto;
-}
-
-h1{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-p{
-    font-size: 1rem;
-    text-align: center;
-    font-weight: 500;
 }
 
 .main-img{
@@ -46,3 +35,46 @@ p{
     width: inherit;
 }
 
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    margin-bottom: 10px;
+}
+
+.button-container{
+    background-color: white;
+    margin: 20px auto 50px;
+    width: 180px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.button{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* footer */
+.redes-sociales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
