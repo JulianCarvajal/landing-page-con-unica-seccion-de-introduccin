@@ -53,7 +53,7 @@ p{
 
 .button-container{
     background-color: white;
-    margin: 20px auto 50px;
+    margin: 50px auto;
     width: 180px;
     border-radius: 50px;
     text-align: center;
@@ -95,7 +95,7 @@ p{
     .hero{
         display: flex;
         flex-wrap: wrap;
-        max-width: 1000px;
+        max-width: 1200px;
         width: initial;
     }
     .main-img{
@@ -109,4 +109,38 @@ p{
         width: 50%;
         padding: 0px 20px;
     }
+    h1{
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    p{
+        text-align: left;
+    }
+    .button-container{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .redes-sociales{
+        justify-content: flex-end;
+    }
+    .social{
+        margin: 10px 10px 50px 5px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    html{
+        font-size: 20px;
+    }
+    .cabecera img{
+        width: initial;
+    }
+    h1{
+        margin-top: 40px;
+    }
+
 }
