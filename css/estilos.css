@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/bg-mobile.svg);
+    background-color: #674bb1;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+}
+
+/* cabecera */
+.cabecera{
+    margin: 50px 0;
+}
+
+.cabecera img{
+    width: 180px;
+}
+
+.hero{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.main-img{
+    width: 100%;
+    margin: 0 auto 50px;
+}
+.main-img img{
+    width: inherit;
+}
+
